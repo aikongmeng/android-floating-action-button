@@ -91,15 +91,15 @@ public class FloatingActionsMenu extends ViewGroup {
     mTouchDelegateGroup = new TouchDelegateGroup(this);
     setTouchDelegate(mTouchDelegateGroup);
 
-    TypedArray attr = context.obtainStyledAttributes(attributeSet, R.styleable.FloatingActionsMenu, 0, 0);
-    mAddButtonPlusColor = attr.getColor(R.styleable.FloatingActionsMenu_fab_addButtonPlusIconColor, getColor(android.R.color.white));
-    mAddButtonColorNormal = attr.getColor(R.styleable.FloatingActionsMenu_fab_addButtonColorNormal, getColor(android.R.color.holo_blue_dark));
-    mAddButtonColorPressed = attr.getColor(R.styleable.FloatingActionsMenu_fab_addButtonColorPressed, getColor(android.R.color.holo_blue_light));
-    mAddButtonSize = attr.getInt(R.styleable.FloatingActionsMenu_fab_addButtonSize, FloatingActionButton.SIZE_NORMAL);
-    mAddButtonStrokeVisible = attr.getBoolean(R.styleable.FloatingActionsMenu_fab_addButtonStrokeVisible, true);
-    mExpandDirection = attr.getInt(R.styleable.FloatingActionsMenu_fab_expandDirection, EXPAND_UP);
-    mLabelsStyle = attr.getResourceId(R.styleable.FloatingActionsMenu_fab_labelStyle, 0);
-    mLabelsPosition = attr.getInt(R.styleable.FloatingActionsMenu_fab_labelsPosition, LABELS_ON_LEFT_SIDE);
+    TypedArray attr = context.obtainStyledAttributes(attributeSet, R.styleable.MFloatingActionsMenu, 0, 0);
+    mAddButtonPlusColor = attr.getColor(R.styleable.MFloatingActionsMenu_mFab_addButtonPlusIconColor, getColor(android.R.color.white));
+    mAddButtonColorNormal = attr.getColor(R.styleable.MFloatingActionsMenu_mFab_addButtonColorNormal, getColor(android.R.color.holo_blue_dark));
+    mAddButtonColorPressed = attr.getColor(R.styleable.MFloatingActionsMenu_mFab_addButtonColorPressed, getColor(android.R.color.holo_blue_light));
+    mAddButtonSize = attr.getInt(R.styleable.MFloatingActionsMenu_mFab_addButtonSize, FloatingActionButton.SIZE_NORMAL);
+    mAddButtonStrokeVisible = attr.getBoolean(R.styleable.MFloatingActionsMenu_mFab_addButtonStrokeVisible, true);
+    mExpandDirection = attr.getInt(R.styleable.MFloatingActionsMenu_mFab_expandDirection, EXPAND_UP);
+    mLabelsStyle = attr.getResourceId(R.styleable.MFloatingActionsMenu_mFab_labelStyle, 0);
+    mLabelsPosition = attr.getInt(R.styleable.MFloatingActionsMenu_mFab_labelsPosition, LABELS_ON_LEFT_SIDE);
     attr.recycle();
 
     if (mLabelsStyle != 0 && expandsHorizontally()) {

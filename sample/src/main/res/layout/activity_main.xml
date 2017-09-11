@@ -8,9 +8,9 @@
         android:id="@+id/pink_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        fab:fab_icon="@drawable/ic_fab_star"
-        fab:fab_colorNormal="@color/pink"
-        fab:fab_colorPressed="@color/pink_pressed"
+        fab:mFab_icon="@drawable/ic_fab_star"
+        fab:mFab_colorNormal="@color/pink"
+        fab:mFab_colorPressed="@color/pink_pressed"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"/>
@@ -29,9 +29,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/pink_icon"
-        fab:fab_plusIconColor="@color/white"
-        fab:fab_colorNormal="@color/blue_semi_transparent"
-        fab:fab_colorPressed="@color/blue_semi_transparent_pressed"
+        fab:mFab_plusIconColor="@color/white"
+        fab:mFab_colorNormal="@color/blue_semi_transparent"
+        fab:mFab_colorPressed="@color/blue_semi_transparent_pressed"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"/>
 
@@ -48,9 +48,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        fab:fab_plusIconColor="@color/half_black"
-        fab:fab_colorNormal="@color/white"
-        fab:fab_colorPressed="@color/white_pressed"
+        fab:mFab_plusIconColor="@color/half_black"
+        fab:mFab_colorNormal="@color/white"
+        fab:mFab_colorPressed="@color/white_pressed"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="16dp"
@@ -66,27 +66,27 @@
         android:layout_above="@id/normal_plus"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
-        fab:fab_addButtonColorNormal="@color/white"
-        fab:fab_addButtonColorPressed="@color/white_pressed"
-        fab:fab_addButtonPlusIconColor="@color/half_black"
-        fab:fab_addButtonSize="mini"
-        fab:fab_labelStyle="@style/menu_labels_style"
-        fab:fab_labelsPosition="right">
+        fab:mFab_addButtonColorNormal="@color/white"
+        fab:mFab_addButtonColorPressed="@color/white_pressed"
+        fab:mFab_addButtonPlusIconColor="@color/half_black"
+        fab:mFab_addButtonSize="mini"
+        fab:mFab_labelStyle="@style/menu_labels_style"
+        fab:mFab_labelsPosition="right">
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_title="Label on the right"
-            fab:fab_colorPressed="@color/white_pressed"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_title="Label on the right"
+            fab:mFab_colorPressed="@color/white_pressed"/>
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_size="mini"
-            fab:fab_title="Another one on the right"
-            fab:fab_colorPressed="@color/white_pressed"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_size="mini"
+            fab:mFab_title="Another one on the right"
+            fab:mFab_colorPressed="@color/white_pressed"/>
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
@@ -97,10 +97,10 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        fab:fab_addButtonColorNormal="@color/white"
-        fab:fab_addButtonColorPressed="@color/white_pressed"
-        fab:fab_addButtonPlusIconColor="@color/half_black"
-        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:mFab_addButtonColorNormal="@color/white"
+        fab:mFab_addButtonColorPressed="@color/white_pressed"
+        fab:mFab_addButtonPlusIconColor="@color/half_black"
+        fab:mFab_labelStyle="@style/menu_labels_style"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp">
@@ -109,17 +109,17 @@
             android:id="@+id/action_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_title="Action A"
-            fab:fab_colorPressed="@color/white_pressed"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_title="Action A"
+            fab:mFab_colorPressed="@color/white_pressed"/>
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_title="Action with a very long name that won\'t fit on the screen"
-            fab:fab_colorPressed="@color/white_pressed"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_title="Action with a very long name that won\'t fit on the screen"
+            fab:mFab_colorPressed="@color/white_pressed"/>
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
@@ -130,12 +130,12 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        fab:fab_addButtonColorNormal="@color/white"
-        fab:fab_addButtonColorPressed="@color/white_pressed"
-        fab:fab_addButtonSize="mini"
-        fab:fab_addButtonPlusIconColor="@color/half_black"
-        fab:fab_expandDirection="down"
-        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:mFab_addButtonColorNormal="@color/white"
+        fab:mFab_addButtonColorPressed="@color/white_pressed"
+        fab:mFab_addButtonSize="mini"
+        fab:mFab_addButtonPlusIconColor="@color/half_black"
+        fab:mFab_expandDirection="down"
+        fab:mFab_labelStyle="@style/menu_labels_style"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp">
@@ -143,32 +143,32 @@
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white_pressed"
-            fab:fab_size="mini"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_colorPressed="@color/white_pressed"
+            fab:mFab_size="mini"/>
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/button_remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white_pressed"
-            fab:fab_title="Click to remove"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_colorPressed="@color/white_pressed"
+            fab:mFab_title="Click to remove"/>
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/button_gone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white_pressed"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_colorPressed="@color/white_pressed"/>
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_enable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_title="Set bottom menu enabled/disabled"
-            fab:fab_colorPressed="@color/white_pressed"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_title="Set bottom menu enabled/disabled"
+            fab:mFab_colorPressed="@color/white_pressed"/>
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
@@ -179,12 +179,12 @@
         android:layout_toLeftOf="@+id/multiple_actions_down"
         android:layout_toStartOf="@+id/multiple_actions_down"
         android:layout_alignParentTop="true"
-        fab:fab_addButtonColorNormal="@color/white"
-        fab:fab_addButtonColorPressed="@color/white_pressed"
-        fab:fab_addButtonSize="mini"
-        fab:fab_addButtonPlusIconColor="@color/half_black"
-        fab:fab_addButtonStrokeVisible="false"
-        fab:fab_expandDirection="left"
+        fab:mFab_addButtonColorNormal="@color/white"
+        fab:mFab_addButtonColorPressed="@color/white_pressed"
+        fab:mFab_addButtonSize="mini"
+        fab:mFab_addButtonPlusIconColor="@color/half_black"
+        fab:mFab_addButtonStrokeVisible="false"
+        fab:mFab_expandDirection="left"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp">
@@ -192,23 +192,23 @@
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white_pressed"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_colorPressed="@color/white_pressed"/>
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white_pressed"
-            fab:fab_size="mini"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_colorPressed="@color/white_pressed"
+            fab:mFab_size="mini"/>
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_colorPressed="@color/white_pressed"
-            fab:fab_size="mini"/>
+            fab:mFab_colorNormal="@color/white"
+            fab:mFab_colorPressed="@color/white_pressed"
+            fab:mFab_size="mini"/>
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 

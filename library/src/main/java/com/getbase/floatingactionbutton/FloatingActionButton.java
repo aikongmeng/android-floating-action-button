@@ -73,13 +73,13 @@ public class FloatingActionButton extends ImageButton {
 
   void init(Context context, AttributeSet attributeSet) {
     TypedArray attr = context.obtainStyledAttributes(attributeSet, R.styleable.FloatingActionButton, 0, 0);
-    mColorNormal = attr.getColor(R.styleable.FloatingActionButton_fab_colorNormal, getColor(android.R.color.holo_blue_dark));
-    mColorPressed = attr.getColor(R.styleable.FloatingActionButton_fab_colorPressed, getColor(android.R.color.holo_blue_light));
-    mColorDisabled = attr.getColor(R.styleable.FloatingActionButton_fab_colorDisabled, getColor(android.R.color.darker_gray));
-    mSize = attr.getInt(R.styleable.FloatingActionButton_fab_size, SIZE_NORMAL);
-    mIcon = attr.getResourceId(R.styleable.FloatingActionButton_fab_icon, 0);
-    mTitle = attr.getString(R.styleable.FloatingActionButton_fab_title);
-    mStrokeVisible = attr.getBoolean(R.styleable.FloatingActionButton_fab_stroke_visible, true);
+    mColorNormal = attr.getColor(R.styleable.FloatingActionButton_mFab_colorNormal, getColor(android.R.color.holo_blue_dark));
+    mColorPressed = attr.getColor(R.styleable.FloatingActionButton_mFab_colorPressed, getColor(android.R.color.holo_blue_light));
+    mColorDisabled = attr.getColor(R.styleable.FloatingActionButton_mFab_colorDisabled, getColor(android.R.color.darker_gray));
+    mSize = attr.getInt(R.styleable.FloatingActionButton_mFab_size, SIZE_NORMAL);
+    mIcon = attr.getResourceId(R.styleable.FloatingActionButton_mFab_icon, 0);
+    mTitle = attr.getString(R.styleable.FloatingActionButton_mFab_title);
+    mStrokeVisible = attr.getBoolean(R.styleable.FloatingActionButton_mFab_stroke_visible, true);
     attr.recycle();
 
     updateCircleSize();
