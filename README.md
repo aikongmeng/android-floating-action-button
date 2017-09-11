@@ -1,5 +1,6 @@
 FloatingActionButton
 ====================
+更名attrs,避免跟Android 系统float atcion button attrs 属性冲突
 Yet another library for drawing [Material Design promoted actions](http://www.google.com/design/spec/patterns/promoted-actions.html).
 
 Features
